@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.nic.epanjeeyan;
+package in.rd.validator;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -12,7 +12,7 @@ import java.util.regex.Pattern;
 import javax.mail.internet.AddressException;
 import javax.mail.internet.InternetAddress;
 
-public class ValidationHandler {
+public class validator {
     private ArrayList<String> errors = new ArrayList();
 
     public ArrayList<String> getErrors() {

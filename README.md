@@ -1,8 +1,7 @@
 # validator
-A generic input validation class in Java.
+A generic input validation class written in Java.
 
-## Example
-
+## How can I use it?
 ```java
 Validator validator = new Validator();
 validator.validate(request.getParameter("serialno"), "Serial number", "required:numeric");

@@ -111,13 +111,6 @@ public class validator {
                     errors.add("Invalid value for the field <strong>" + fieldName + "</strong>.<br />");
                 }
             }
-            else if (params[i].contains("regtype")) {
-
-                if (!input.equals("Office") && !input.equals("Commissioned")) {
-                    System.out.println("Invalid value for the field <strong>" + fieldName + "</strong>.<br />");
-                    errors.add("Invalid value for the field <strong>" + fieldName + "</strong>.<br />");
-                }
-            }
             else if (params[i].contains("email")) {
                 if(input == null) {
                     errors.add("Invalid email address specified for the field <strong>"+ fieldName + "</strong>.");

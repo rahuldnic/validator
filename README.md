@@ -17,17 +17,17 @@ if (!errors.isEmpty()) {
 ```
 ## Available validations
 
-### 1. reqiured
-### 2. max
-### 3. min
-### 4. numeric
-### 5. xss
-### 6. alphanum
-### 7. sql
-### 8. regtype
-### 9. email
-### 10. mobile
-### 11. PIN
-### 12. Pan
-### 13. Aadhar
+#### 1. reqiured
+#### 2. max
+#### 3. min
+#### 4. numeric
+#### 5. xss
+#### 6. alphanum
+#### 7. sql
+#### 8. regtype
+#### 9. email
+#### 10. mobile
+#### 11. PIN
+#### 12. Pan
+#### 13. Aadhar
 

@@ -18,10 +18,6 @@ public class validator {
     public ArrayList<String> getErrors() {
         return errors;
     }
-
-    public void setErrors(ArrayList<String> errors) {
-        this.errors = errors;
-    }
     
     public void validate(Object input, String fieldName, String paramList) {
         
@@ -189,27 +185,6 @@ public class validator {
                 }
             }
         }
-    }
-    public void validate(Object input, String fieldName, String paramList, String[] list) {        
-        String[] params;
-        if(paramList.contains(":")){
-            params = paramList.split(":");
-        }
-        else {
-            params = new String[1];
-            params[0] = paramList;
-            
-        }
-        for (String param : params) {
-            if (param.equals("valuein")) {
-                if(!Arrays.asList(list).contains((String)input)) {
-                    System.out.println("Value specified for field <strong>" + fieldName + "</strong> is not valid.");
-                    errors.add("Value specified for field <strong>" + fieldName + "</strong> is not valid.");
-                    break;
-                }
-            }
-        }
-
     }
 
 }

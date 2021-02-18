@@ -1,7 +1,7 @@
 # validator
 A generic input validation class in Java.
 
-#Example
+# Example
 
 ```java
 Validator validator = new Validator();
